@@ -1,19 +1,22 @@
 # Data Structures in C
 
-This repository contains implementations of various fundamental data structures in C, including stacks and queues using both arrays and linked lists.
+This repository contains implementations of various fundamental data structures in C, including stacks, queues, and lists using both arrays and linked lists.
 
 ## Contents
 
 1. **Singly Linked List**
-2. **Stack**
-    - Using Array
-    - Using Linked List
-3. **Queue**
-    - Using Array
-    - Using Linked List
-4. **Circular Queue**
+2. **List**
     - Contiguous Implementation
-5. **Dequeue**
+    - Linked List Implementation
+3. **Stack**
+    - Contiguous Implementation
+    - Linked List Implementation
+4. **Queue**
+    - Contiguous Implementation
+    - Linked List Implementation
+5. **Circular Queue**
+    - Contiguous Implementation
+6. **Dequeue**
     - Contiguous Implementation
 
 ## Singly Linked List
@@ -25,11 +28,33 @@ A singly linked list is a data structure that contains a sequence of nodes. Each
   - Forward-only traversal
   - Dynamic memory allocation for nodes
 
+## List
+
+A list is a collection of elements, with operations to insert, delete, and access elements. This repository includes implementations of lists using both arrays and linked lists.
+
+### Contiguous Implementation of List
+
+- **File:** `list_array.c`
+- **Features:**
+  - Fixed-size array implementation
+  - Insert and delete operations
+  - Efficient random access
+  - List overflow and underflow handling
+
+### Linked List Implementation of List
+
+- **File:** `list_linked_list.c`
+- **Features:**
+  - Dynamic size
+  - Insert and delete operations
+  - Efficient memory usage
+  - Traversal from head to tail
+
 ## Stack
 
 A stack is a Last In First Out (LIFO) data structure. The last element added to the stack is the first one to be removed. This repository includes stack implementations using both arrays and linked lists.
 
-### Stack Using Array
+### Contiguous Implementation of Stack
 
 - **File:** `stack_array.c`
 - **Features:**
@@ -37,7 +62,7 @@ A stack is a Last In First Out (LIFO) data structure. The last element added to 
   - Push and pop operations
   - Stack overflow and underflow handling
 
-### Stack Using Linked List
+### Linked List Implementation of Stack
 
 - **File:** `stack_linked_list.c`
 - **Features:**
@@ -49,7 +74,7 @@ A stack is a Last In First Out (LIFO) data structure. The last element added to 
 
 A queue is a First In First Out (FIFO) data structure. The first element added to the queue is the first one to be removed. This repository includes queue implementations using both arrays and linked lists.
 
-### Queue Using Array
+### Contiguous Implementation of Queue
 
 - **File:** `queue_array.c`
 - **Features:**
@@ -57,7 +82,7 @@ A queue is a First In First Out (FIFO) data structure. The first element added t
   - Enqueue and dequeue operations
   - Queue overflow and underflow handling
 
-### Queue Using Linked List
+### Linked List Implementation of Queue
 
 - **File:** `queue_linked_list.c`
 - **Features:**
