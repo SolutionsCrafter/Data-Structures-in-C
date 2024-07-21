@@ -5,25 +5,27 @@ This repository contains implementations of various fundamental data structures 
 ## Contents
 
 1. **Singly Linked List**
+   ![Singly Linked List](path/to/singly_linked_list.png)
 2. **List**
+   ![List](path/to/list.png)
     - Contiguous Implementation
     - Linked List Implementation
 3. **Stack**
+   ![Stack](path/to/stack.png)
     - Contiguous Implementation
     - Linked List Implementation
 4. **Queue**
+   ![Queue](path/to/queue.png)
     - Contiguous Implementation
     - Linked List Implementation
-5. **Circular Queue**
-    - Contiguous Implementation
-6. **Dequeue**
-    - Contiguous Implementation
+    - Circular Queue
+    - Dequeue
+5. **Circular Queue** *(Included in Queue)*
+6. **Dequeue** *(Included in Queue)*
 
 ## Singly Linked List
 
 A singly linked list is a data structure that contains a sequence of nodes. Each node contains a data field and a pointer to the next node in the sequence. The last node points to `NULL`, indicating the end of the list. This is a simple and memory-efficient structure.
-
-![Singly Linked List](C:\Users\Chann\OneDrive\Desktop\DSA in C\Images/Stack.png)
 
 - **File:** `singly_linked_list.c`
 - **Features:**
@@ -36,8 +38,6 @@ A list is a collection of elements, with operations to insert, delete, and acces
 
 ### Contiguous Implementation of List
 
-![Contiguous List](path/to/contiguous_list.png)
-
 - **File:** `list_array.c`
 - **Features:**
   - Fixed-size array implementation
@@ -46,8 +46,6 @@ A list is a collection of elements, with operations to insert, delete, and acces
   - List overflow and underflow handling
 
 ### Linked List Implementation of List
-
-![Linked List](path/to/linked_list.png)
 
 - **File:** `list_linked_list.c`
 - **Features:**
@@ -62,8 +60,6 @@ A stack is a Last In First Out (LIFO) data structure. The last element added to 
 
 ### Contiguous Implementation of Stack
 
-![Stack Using Array](path/to/stack_array.png)
-
 - **File:** `stack_array.c`
 - **Features:**
   - Fixed-size array implementation
@@ -71,8 +67,6 @@ A stack is a Last In First Out (LIFO) data structure. The last element added to 
   - Stack overflow and underflow handling
 
 ### Linked List Implementation of Stack
-
-![Stack Using Linked List](path/to/stack_linked_list.png)
 
 - **File:** `stack_linked_list.c`
 - **Features:**
@@ -82,11 +76,9 @@ A stack is a Last In First Out (LIFO) data structure. The last element added to 
 
 ## Queue
 
-A queue is a First In First Out (FIFO) data structure. The first element added to the queue is the first one to be removed. This repository includes queue implementations using both arrays and linked lists.
+A queue is a First In First Out (FIFO) data structure. The first element added to the queue is the first one to be removed. This repository includes queue implementations using both arrays and linked lists, as well as circular and double-ended queues.
 
 ### Contiguous Implementation of Queue
-
-![Queue Using Array](path/to/queue_array.png)
 
 - **File:** `queue_array.c`
 - **Features:**
@@ -96,21 +88,15 @@ A queue is a First In First Out (FIFO) data structure. The first element added t
 
 ### Linked List Implementation of Queue
 
-![Queue Using Linked List](path/to/queue_linked_list.png)
-
 - **File:** `queue_linked_list.c`
 - **Features:**
   - Dynamic size
   - Enqueue and dequeue operations
   - Efficient memory usage
 
-## Circular Queue
+### Circular Queue
 
 A circular queue is a linear data structure that follows the FIFO principle but connects the end of the queue back to the beginning, forming a circle. This allows for efficient use of storage space.
-
-### Contiguous Implementation of Circular Queue
-
-![Circular Queue](path/to/circular_queue.png)
 
 - **File:** `circular_queue.c`
 - **Features:**
@@ -119,13 +105,9 @@ A circular queue is a linear data structure that follows the FIFO principle but 
   - Efficient utilization of space using circular indexing
   - Queue overflow and underflow handling
 
-## Dequeue
+### Dequeue
 
 A dequeue (double-ended queue) is a linear data structure that allows insertion and deletion from both ends (front and rear).
-
-### Contiguous Implementation of Dequeue
-
-![Dequeue](path/to/dequeue.png)
 
 - **File:** `dequeue.c`
 - **Features:**
