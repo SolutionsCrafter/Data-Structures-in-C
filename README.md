@@ -11,7 +11,7 @@ This repository contains implementations of various fundamental data structures 
     - Contiguous Implementation
     - Linked List Implementation
 3. **Stack**
-   ![Stack](path/to/stack.png)
+   ![Stack](https://github.com/SolutionCrafter/Data-Structure-in-C/raw/main/images/Stack.png)
     - Contiguous Implementation
     - Linked List Implementation
 4. **Queue**
