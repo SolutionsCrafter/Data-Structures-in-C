@@ -23,7 +23,7 @@ This repository contains implementations of various fundamental data structures 
 
 A singly linked list is a data structure that contains a sequence of nodes. Each node contains a data field and a pointer to the next node in the sequence. The last node points to `NULL`, indicating the end of the list. This is a simple and memory-efficient structure.
 
-![Singly Linked List](<a href="https://lovepik.com/images/png-book.html">Book Png vectors by Lovepik.com</a>)
+![Singly Linked List](C:\Users\Chann\OneDrive\Desktop\DSA in C\Images/Stack.PNG)
 
 - **File:** `singly_linked_list.c`
 - **Features:**
