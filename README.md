@@ -23,6 +23,8 @@ This repository contains implementations of various fundamental data structures 
 
 A singly linked list is a data structure that contains a sequence of nodes. Each node contains a data field and a pointer to the next node in the sequence. The last node points to `NULL`, indicating the end of the list. This is a simple and memory-efficient structure.
 
+![Singly Linked List](path/to/singly_linked_list.png)
+
 - **File:** `singly_linked_list.c`
 - **Features:**
   - Forward-only traversal
@@ -34,6 +36,8 @@ A list is a collection of elements, with operations to insert, delete, and acces
 
 ### Contiguous Implementation of List
 
+![Contiguous List](path/to/contiguous_list.png)
+
 - **File:** `list_array.c`
 - **Features:**
   - Fixed-size array implementation
@@ -42,6 +46,8 @@ A list is a collection of elements, with operations to insert, delete, and acces
   - List overflow and underflow handling
 
 ### Linked List Implementation of List
+
+![Linked List](path/to/linked_list.png)
 
 - **File:** `list_linked_list.c`
 - **Features:**
@@ -56,6 +62,8 @@ A stack is a Last In First Out (LIFO) data structure. The last element added to 
 
 ### Contiguous Implementation of Stack
 
+![Stack Using Array](path/to/stack_array.png)
+
 - **File:** `stack_array.c`
 - **Features:**
   - Fixed-size array implementation
@@ -63,6 +71,8 @@ A stack is a Last In First Out (LIFO) data structure. The last element added to 
   - Stack overflow and underflow handling
 
 ### Linked List Implementation of Stack
+
+![Stack Using Linked List](path/to/stack_linked_list.png)
 
 - **File:** `stack_linked_list.c`
 - **Features:**
@@ -76,6 +86,8 @@ A queue is a First In First Out (FIFO) data structure. The first element added t
 
 ### Contiguous Implementation of Queue
 
+![Queue Using Array](path/to/queue_array.png)
+
 - **File:** `queue_array.c`
 - **Features:**
   - Fixed-size array implementation
@@ -83,6 +95,8 @@ A queue is a First In First Out (FIFO) data structure. The first element added t
   - Queue overflow and underflow handling
 
 ### Linked List Implementation of Queue
+
+![Queue Using Linked List](path/to/queue_linked_list.png)
 
 - **File:** `queue_linked_list.c`
 - **Features:**
@@ -96,6 +110,8 @@ A circular queue is a linear data structure that follows the FIFO principle but 
 
 ### Contiguous Implementation of Circular Queue
 
+![Circular Queue](path/to/circular_queue.png)
+
 - **File:** `circular_queue.c`
 - **Features:**
   - Fixed-size array implementation
@@ -108,6 +124,8 @@ A circular queue is a linear data structure that follows the FIFO principle but 
 A dequeue (double-ended queue) is a linear data structure that allows insertion and deletion from both ends (front and rear).
 
 ### Contiguous Implementation of Dequeue
+
+![Dequeue](path/to/dequeue.png)
 
 - **File:** `dequeue.c`
 - **Features:**
