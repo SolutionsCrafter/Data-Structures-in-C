@@ -5,23 +5,17 @@ This repository contains implementations of various fundamental data structures 
 ## Contents
 
 1. **Singly Linked List**
-   ![Singly Linked List](path/to/singly_linked_list.png)
 2. **List**
-   ![List](path/to/list.png)
     - Contiguous Implementation
     - Linked List Implementation
 3. **Stack**
-   ![Stack](https://github.com/SolutionCrafter/Data-Structures-in-C/raw/main/images/Stack.png)
     - Contiguous Implementation
     - Linked List Implementation
 4. **Queue**
-   ![Queue](path/to/queue.png)
     - Contiguous Implementation
     - Linked List Implementation
     - Circular Queue
     - Dequeue
-5. **Circular Queue** *(Included in Queue)*
-6. **Dequeue** *(Included in Queue)*
 
 ## Singly Linked List
 
